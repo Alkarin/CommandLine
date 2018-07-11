@@ -37,3 +37,5 @@ SELECT table_schema "database_name", sum( data_length + index_length ) / 1024 / 
 ##### get jks key sha1
 `keytool -exportcert -list -alias aliasnamehere -keystore "directory/where/your/keystore/here.jks" -storepass storepasshere -keypass keypasshere
 `
+##### Other cheatsheets
+* https://gist.github.com/hofmannsven/8392477
