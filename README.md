@@ -9,8 +9,11 @@ Commandline Cheatsheet for various command line commands that can be complex, bu
 
 ## Database Management
 
-##### import MySQL matabase
+##### import MySQL database
 `mysql -u root database_name < file.sql`
+
+##### import compressed MySQL database
+`zcat file.sql.gz | mysql -uroot database_name`
 
 ##### check SQL database size during an import
 `
