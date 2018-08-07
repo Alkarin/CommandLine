@@ -9,6 +9,9 @@ Commandline Cheatsheet for various command line commands that can be complex, bu
 
 ## Database Management
 
+##### import compressed database
+`zcat database.sql.gz | mysql -u username databasename`
+
 ##### import MySQL database
 `mysql -u root database_name < file.sql`
 
