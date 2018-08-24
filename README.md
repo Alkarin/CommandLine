@@ -35,6 +35,9 @@ SELECT table_schema "database_name", sum( data_length + index_length ) / 1024 / 
 ##### move files from SERVER to LOCAL
 `scp username@sitedomain.com:/file/directory.here /home/alexander/place/file/here`
 
+##### using local key with request
+`scp -i ~/.ssh/key_file.pem username@sitedomain.com:/file/directory.here /home/alexander/place/file/here .`
+
 ## Miscellaneous
 
 ##### view server info
